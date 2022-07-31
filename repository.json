@@ -2,16 +2,16 @@
     "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
     "maintainer": {
         "contact": {
-            "twitter": "@bouni2016"
+            "twitter": "@thanhduongvs"
         },
-        "name": "Bouni"
+        "name": "OneKiwi"
     },
     "name": "OneKiwi's KiCad repository",
     "packages": {
         "sha256": "ee3fad1f83c7cc9a6d416f38f466fd3bbdb708069c5f1d05695084513352fc0b",
         "update_time_utc": "2022-07-05 05:09:14",
         "update_timestamp": 1656997754,
-        "url": "https://raw.githubusercontent.com/OneKiwiTech/onekiwi-kicad-repository/main/repository.json"
+        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/packages.json"
     },
     "resources": {
         "sha256": "7e035e43f934b74adc440889c0df06aa227dbd6febab162b245b72f2a80eb985",
@@ -19,4 +19,4 @@
         "update_timestamp": 1639033380,
         "url": "https://github.com/Bouni/bouni-kicad-repository/raw/main/resources.zip"
     }
-}
+} 
