@@ -1,22 +1,35 @@
 {
-    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
-    "maintainer": {
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Component Placement",
+    "description": "Create component placement",
+    "description_full": "Create component placement",
+    "identifier": "com.github.onekiwi.kicad-component-placement",
+    "type": "plugin",
+    "author": {
+        "name": "mitxela",
         "contact": {
-            "twitter": "@thanhduongvs"
-        },
-        "name": "OneKiwi"
+            "web": "https://github.com/OneKiwiTech"
+        }
     },
-    "name": "OneKiwi's KiCad repository",
-    "packages": {
-        "sha256": "ee3fad1f83c7cc9a6d416f38f466fd3bbdb708069c5f1d05695084513352fc0b",
-        "update_time_utc": "2022-07-05 05:09:14",
-        "update_timestamp": 1656997754,
-        "url": "https://raw.githubusercontent.com/OneKiwiTech/onekiwi-kicad-repository/main/repository.json"
-    },
+    "license": "MIT",
     "resources": {
-        "sha256": "7e035e43f934b74adc440889c0df06aa227dbd6febab162b245b72f2a80eb985",
-        "update_time_utc": "2021-12-09 08:03:00",
-        "update_timestamp": 1639033380,
-        "url": "https://github.com/OneKiwiTech/onekiwi-kicad-repository/raw/main/resources.zip"
-    }
-} 
+        "homepage": "https://github.com/OneKiwiTech/kicad-component-placement"
+    },
+    "versions": [
+        {
+            "version": "v1.0.1",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "f6787ceaac1ab7b8830d0ec8b4164af6ea0da42def5b5d6653d4b1ad52293f9b",
+            "download_size": 8640,
+            "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/v1.0.1/kicad-component-placement-v1.0.1.zip",
+            "install_size": 16156,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+
+        }
+    ]
+}
