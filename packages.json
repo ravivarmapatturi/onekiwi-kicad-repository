@@ -5,7 +5,7 @@
           "name": "KiCAD JLCPCB tools",
           "description": "A JLCPCB integration addon for KiCAD",
           "description_full": "This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.",
-          "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+          "identifier": "com.github.onekiwi.kicad-length-matching",
           "type": "plugin",
           "author": {
               "name": "Bouni",
