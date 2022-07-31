@@ -8,10 +8,10 @@
     },
     "name": "OneKiwi's KiCad repository",
     "packages": {
-        "sha256": "ee3fad1f83c7cc9a6d416f38f466fd3bbdb708069c5f1d05695084513352fc0b",
-        "update_time_utc": "2022-07-05 05:09:14",
-        "update_timestamp": 1656997754,
-        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/packages.json"
+        "sha256": "2bb5583edd950f4f294e3e994c8b7fdb6bfb66ba6cf59fe50e4984aeb088cbec",
+        "update_time_utc": "2022-07-15 11:02:33",
+        "update_timestamp": 1657882953,
+        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json"
     },
     "resources": {
         "sha256": "7e035e43f934b74adc440889c0df06aa227dbd6febab162b245b72f2a80eb985",

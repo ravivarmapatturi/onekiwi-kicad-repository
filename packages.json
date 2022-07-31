@@ -5,7 +5,7 @@
             "name": "KiCAD JLCPCB tools",
             "description": "A JLCPCB integration addon for KiCAD",
             "description_full": "This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.",
-            "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+            "identifier": "com.github.onekiwi.kicad-length-matching",
             "type": "plugin",
             "author": {
                 "name": "Bouni",
@@ -25,13 +25,13 @@
             },
             "versions": [
                 {
-                    "version": "2021.12.1",
+                    "version": "v0.0.2",
                     "status": "testing",
                     "kicad_version": "6.0",
-                    "download_sha256": "48611b125a44c254576a809f30c339d3dd876f29ef19dd501892997593e51e51",
-                    "download_size": 66118,
-                    "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/releases/download/2021.12.1/KiCAD-PCM-2021.12.1.zip",
-                    "install_size": 147111
+                    "download_sha256": "050f7980cc1c5f8ea6f9acd2c90393100416437bfa40581e17aaeb5b526a4a10",
+                    "download_size": 109700,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/archive/refs/tags/v0.0.2.zip",
+                    "install_size": 207323
                 }
             ]
         }
