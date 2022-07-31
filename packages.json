@@ -1,39 +1,35 @@
 {
-  "packages": [
-      {
-          "$schema": "https://go.kicad.org/pcm/schemas/v1",
-          "name": "KiCAD Length Matching",
-          "description": "A JLCPCB integration addon for KiCAD",
-          "description_full": "This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.",
-          "identifier": "com.github.onekiwi.kicad-length-matching",
-          "type": "plugin",
-          "author": {
-              "name": "Bouni",
-              "contact": {
-                  "twitter": "@bouni2016"
-              }
-          },
-          "maintainer": {
-              "name": "Bouni",
-              "contact": {
-                  "twitter": "@bouni2016"
-              }
-          },
-          "license": "WTFPL",
-          "resources": {
-              "homepage": "https://github.com/bouni/kicad-jlcpcb-tools"
-          },
-          "versions": [
-              {
-                  "version": "2021.12.1",
-                  "status": "testing",
-                  "kicad_version": "6.0",
-                  "download_sha256": "48611b125a44c254576a809f30c339d3dd876f29ef19dd501892997593e51e51",
-                  "download_size": 66118,
-                  "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/releases/download/2021.12.1/KiCAD-PCM-2021.12.1.zip",
-                  "install_size": 147111
-              }
-          ]
-      }
-  ]
-} 
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Component Placement",
+    "description": "Create component placement",
+    "description_full": "Create component placement",
+    "identifier": "com.github.onekiwi.kicad-component-placement",
+    "type": "plugin",
+    "author": {
+        "name": "mitxela",
+        "contact": {
+            "web": "https://github.com/OneKiwiTech"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/OneKiwiTech/kicad-component-placement"
+    },
+    "versions": [
+        {
+            "version": "v1.0.1",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "f6787ceaac1ab7b8830d0ec8b4164af6ea0da42def5b5d6653d4b1ad52293f9b",
+            "download_size": 8640,
+            "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/v1.0.1/kicad-component-placement-v1.0.1.zip",
+            "install_size": 16156,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+
+        }
+    ]
+}
