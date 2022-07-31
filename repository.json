@@ -8,7 +8,7 @@
     },
     "name": "OneKiwi's KiCad repository",
     "packages": {
-        "sha256": "30dc1e8e8019821ca64790d54e0fce21d23db0224ac92cc01af159bf3fc5b33e",
+        "sha256": "aee68a86a9a8359bb16a83000654187de164dcd1dbb2caf62a31fd0004ccb3c7",
         "update_time_utc": "2022-07-05 05:09:14",
         "update_timestamp": 1656997754,
         "url": "https://raw.githubusercontent.com/OneKiwiTech/onekiwi-kicad-repository/main/packages.json"

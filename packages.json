@@ -10,7 +10,7 @@
             },
             "description": "Based on Solarized colorscheme from Ethan Schoonover",
             "description_full": "Based on Solarized colorscheme from Ethan Schoonover.\nSee https://ethanschoonover.com/solarized/ for more details.",
-            "identifier": "com.github.pointhi.kicad-color-schemes.solarized-light",
+            "identifier": "com.github.onekiwi.kicad-component-placement",
             "license": "CC0-1.0",
             "maintainer": {
                 "contact": {
