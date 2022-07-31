@@ -1,39 +1,40 @@
 {
-    "packages": [
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "KiCAD JLCPCB tools",
-            "description": "A JLCPCB integration addon for KiCAD",
-            "description_full": "This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.",
-            "identifier": "com.github.onekiwi.kicad-length-matching",
-            "type": "plugin",
-            "author": {
-                "name": "Bouni",
-                "contact": {
-                    "twitter": "@bouni2016"
-                }
-            },
-            "maintainer": {
-                "name": "Bouni",
-                "contact": {
-                    "twitter": "@bouni2016"
-                }
-            },
-            "license": "WTFPL",
-            "resources": {
-                "homepage": "https://github.com/bouni/kicad-jlcpcb-tools"
-            },
-            "versions": [
-                {
-                    "version": "v0.0.2",
-                    "status": "testing",
-                    "kicad_version": "6.0",
-                    "download_sha256": "050f7980cc1c5f8ea6f9acd2c90393100416437bfa40581e17aaeb5b526a4a10",
-                    "download_size": 109700,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/archive/refs/tags/v0.0.2.zip",
-                    "install_size": 207323
-                }
-            ]
-        }
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "KiBuzzard",
+    "description": "Custom font label generator",
+    "description_full": "A label generator that renders svgs from truetype fonts, and creates silkscreen footprints for your PCB. Based of a similar plugin for Cadsoft Eagle called Buzzard",
+    "identifier": "com.github.onekiwi.kicad-length-matching",
+    "type": "plugin",
+    "author": {
+      "name": "Greg Davill",
+      "contact": {
+        "github": "https://github.com/gregdavill",
+        "web": "https://gregdavill.com",
+        "twitter": "https://twitter.com/gregdavill"
+      }
+    },
+    "maintainer": {
+      "name": "Greg Davill",
+      "contact": {
+        "github": "https://github.com/gregdavill",
+        "web": "https://gregdavill.com",
+        "twitter": "https://twitter.com/gregdavill"
+      }
+    },
+    "license": "MIT",
+    "resources": {
+      "homepage": "https://github.com/gregdavill/KiBuzzard"
+    },
+    "versions": [
+      {
+        "version": "1.2.0",
+        "status": "stable",
+        "kicad_version": "6.0",
+        "install_size": 22510171,
+        "download_size": 6900468,
+        "download_sha256": "dbd0906ece41961ef7b28493ff1a9c1163dfbed028e8ccd6ce7a17a73a3154d8",
+        "download_url": "https://github.com/gregdavill/KiBuzzard/releases/download/1.2.0/KiBuzzard-1.2.0-pcm.zip"
+      }
     ]
-}
+  }
+  
