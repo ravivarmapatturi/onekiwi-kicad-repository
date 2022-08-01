@@ -75,6 +75,39 @@
                     "version": "1.0.2"
                 }
             ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "KiCAD JLCPCB tools",
+            "description": "Generate Position File",
+            "description_full": "Generate Position File",
+            "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-component-placement"
+            },
+            "tags": [
+                "smt",
+                "pcbnew"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "version": "2022.07.01",
+                    "status": "testing",
+                    "kicad_version": "6.0",
+                    "download_sha256": "d4c4fce851074852bc64ad25bbd679a9372060af70cf8ee6d72b2ccc08b51a80",
+                    "download_size": 73952,
+                    "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/releases/download/2022.07.01/KiCAD-PCM-2022.07.01.zip",
+                    "install_size": 183786
+                }
+            ]
         }
     ]
 }
