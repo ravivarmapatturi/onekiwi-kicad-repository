@@ -4,115 +4,24 @@
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "author": {
                 "contact": {
-                    "email": "mail@qu1ck.org"
+                    "email": "thanhduong@ontech.com.vn"
                 },
-                "name": "qu1ck"
+                "name": "OneKiwi"
             },
             "description": "Generate interactive html BOM to assist with manual pcb assembly",
             "description_full": "This plugin generates convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb.\nThis is really useful when hand soldering your prototype and you have to find 50 places where 0.1uF cap should be or which of the SOP8 footprints are for the same micro. Dynamically highlighting all components in the same group on the rendering of the pcb makes manually populating the board much easier.\nThis plugin utilizes Pcbnew python bindings to read pcb data and render silkscreen, fab layer, footprint pads, text and drawings. Additionally it can pull data from schematic if you export it through netlist or xml file that Eeschema can generate from it's internal bom tool. That extra data can be added as additional columns in the BOM table (for example manufacturer id) or it can be used to indicate which components should be omitted altogether (dnp field).\nGenerated html page is fully self contained, doesn't need internet connection to work and can be packaged with documentation of your project or hosted anywhere on the web.",
-            "identifier": "org.openscopeproject.InteractiveHtmlBom",
-            "license": "MIT",
-            "name": "Interactive Html Bom",
-            "resources": {
-                "Demos": "https://openscopeproject.org/InteractiveHtmlBomDemo/",
-                "Forum": "https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713",
-                "Github": "https://github.com/openscopeproject/InteractiveHtmlBom",
-                "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
-            },
-            "tags": [
-                "bom",
-                "pcbnew",
-                "html",
-                "assembly",
-                "documentation"
-            ],
-            "type": "plugin",
-            "versions": [
-                {
-                    "download_sha256": "96d23e986300b66bae2b71c8c1f9d7239b8bf56c0d399a6160fa61e617035f43",
-                    "download_size": 137832,
-                    "download_url": "https://github.com/openscopeproject/InteractiveHtmlBom/releases/download/v2.5.0/InteractiveHtmlBom_v2.5.0_pcm.zip",
-                    "install_size": 680994,
-                    "kicad_version": "5.1",
-                    "platforms": [
-                        "linux",
-                        "macos",
-                        "windows"
-                    ],
-                    "status": "stable",
-                    "version": "2.5.0"
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "author": {
-                "contact": {
-                    "email": "mail@qu1ck.org"
-                },
-                "name": "qu1ck"
-            },
-            "description": "Generate interactive html BOM to assist with manual pcb assembly",
-            "description_full": "This plugin generates convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb.\nThis is really useful when hand soldering your prototype and you have to find 50 places where 0.1uF cap should be or which of the SOP8 footprints are for the same micro. Dynamically highlighting all components in the same group on the rendering of the pcb makes manually populating the board much easier.\nThis plugin utilizes Pcbnew python bindings to read pcb data and render silkscreen, fab layer, footprint pads, text and drawings. Additionally it can pull data from schematic if you export it through netlist or xml file that Eeschema can generate from it's internal bom tool. That extra data can be added as additional columns in the BOM table (for example manufacturer id) or it can be used to indicate which components should be omitted altogether (dnp field).\nGenerated html page is fully self contained, doesn't need internet connection to work and can be packaged with documentation of your project or hosted anywhere on the web.",
-            "identifier": "com.github.onekiwi.kicad-component-placement",
-            "license": "MIT",
-            "name": "Component Placement",
-            "resources": {
-                "Demos": "https://openscopeproject.org/InteractiveHtmlBomDemo/",
-                "Forum": "https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713",
-                "Github": "https://github.com/openscopeproject/InteractiveHtmlBom",
-                "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
-            },
-            "tags": [
-                "bom",
-                "pcbnew",
-                "html",
-                "assembly",
-                "documentation"
-            ],
-            "type": "plugin",
-            "versions": [
-                {
-                    "download_sha256": "a1406d915428e9b0b42d44899e1890b7c6f79248e58fba48be9f9f509adb569f",
-                    "download_size": 8635,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.0.2/kicad-component-placement-1.0.2.zip",
-                    "install_size": 16155,
-                    "kicad_version": "6.0",
-                    "platforms": [
-                        "linux",
-                        "macos",
-                        "windows"
-                    ],
-                    "status": "stable",
-                    "version": "1.0.2"
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "author": {
-                "contact": {
-                    "email": "mail@qu1ck.org"
-                },
-                "name": "qu1ck"
-            },
-            "description": "Generate interactive html BOM to assist with manual pcb assembly",
-            "description_full": "This plugin generates convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb.\nThis is really useful when hand soldering your prototype and you have to find 50 places where 0.1uF cap should be or which of the SOP8 footprints are for the same micro. Dynamically highlighting all components in the same group on the rendering of the pcb makes manually populating the board much easier.\nThis plugin utilizes Pcbnew python bindings to read pcb data and render silkscreen, fab layer, footprint pads, text and drawings. Additionally it can pull data from schematic if you export it through netlist or xml file that Eeschema can generate from it's internal bom tool. That extra data can be added as additional columns in the BOM table (for example manufacturer id) or it can be used to indicate which components should be omitted altogether (dnp field).\nGenerated html page is fully self contained, doesn't need internet connection to work and can be packaged with documentation of your project or hosted anywhere on the web.",
-            "identifier": "com.github.onekiwi.kicad-length-matching",
+            "identifier": "vn.onekiwi.kicad-length-matching",
             "license": "MIT",
             "name": "Length Matching",
             "resources": {
                 "Demos": "https://openscopeproject.org/InteractiveHtmlBomDemo/",
                 "Forum": "https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713",
-                "Github": "https://github.com/openscopeproject/InteractiveHtmlBom",
+                "Github": "https://github.com/OneKiwiTech",
                 "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
             },
             "tags": [
-                "bom",
-                "pcbnew",
-                "html",
-                "assembly",
-                "documentation"
+                "high speed",
+                "pcbnew"
             ],
             "type": "plugin",
             "versions": [
@@ -129,6 +38,47 @@
                     ],
                     "status": "stable",
                     "version": "0.1.0"
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "author": {
+                "contact": {
+                    "email": "thanhduong@ontech.com.vn"
+                },
+                "name": "OneKiwi"
+            },
+            "description": "Generate interactive html BOM to assist with manual pcb assembly",
+            "description_full": "This plugin generates convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb.\nThis is really useful when hand soldering your prototype and you have to find 50 places where 0.1uF cap should be or which of the SOP8 footprints are for the same micro. Dynamically highlighting all components in the same group on the rendering of the pcb makes manually populating the board much easier.\nThis plugin utilizes Pcbnew python bindings to read pcb data and render silkscreen, fab layer, footprint pads, text and drawings. Additionally it can pull data from schematic if you export it through netlist or xml file that Eeschema can generate from it's internal bom tool. That extra data can be added as additional columns in the BOM table (for example manufacturer id) or it can be used to indicate which components should be omitted altogether (dnp field).\nGenerated html page is fully self contained, doesn't need internet connection to work and can be packaged with documentation of your project or hosted anywhere on the web.",
+            "identifier": "vn.onekiwi.kicad-component-placement",
+            "license": "MIT",
+            "name": "Component Placement",
+            "resources": {
+                "Demos": "https://openscopeproject.org/InteractiveHtmlBomDemo/",
+                "Forum": "https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713",
+                "Github": "https://github.com/OneKiwiTech",
+                "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
+            },
+            "tags": [
+                "smt",
+                "pcbnew"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "a1406d915428e9b0b42d44899e1890b7c6f79248e58fba48be9f9f509adb569f",
+                    "download_size": 8635,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.0.2/kicad-component-placement-1.0.2.zip",
+                    "install_size": 16155,
+                    "kicad_version": "6.0",
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ],
+                    "status": "stable",
+                    "version": "1.0.2"
                 }
             ]
         }
