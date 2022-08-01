@@ -20,7 +20,7 @@
                 "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
             },
             "tags": [
-                "high speed",
+                "highspeed",
                 "pcbnew"
             ],
             "type": "plugin",
