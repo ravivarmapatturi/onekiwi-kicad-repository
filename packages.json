@@ -75,6 +75,44 @@
                     "version": "1.0.2"
                 }
             ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Edit Footprint Value",
+            "description": "Edit reference value on layer Silkscreen and Fabrication",
+            "description_full": "Edit reference value on layer Silkscreen and Fabrication",
+            "identifier": "vn.onekiwi.edit-footprint-value",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-component-placement"
+            },
+            "tags": [
+                "pcb",
+                "pcbnew"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "version": "2022.08.03",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "f9edc4163b26ede93c6b42315dc6d528bf57979557df35271edb653a9ce830cc",
+                    "download_size": 11911,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-edit-footprint-value/releases/download/2022.08.03/edit-footprint-value-2022.08.03.zip",
+                    "install_size": 28279,
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ]
+                }
+            ]
         }
     ]
 }
