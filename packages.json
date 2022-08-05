@@ -23,13 +23,13 @@
             "type": "plugin",
             "versions": [
                 {
-                    "version": "2022.08.05",
+                    "version": "2022.08.06",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "9db3f6af4871b8c03c1a0b8bb622751407b3b7a70c2d5f8708955fff81776689",
-                    "download_size": 17237,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/2022.08.05/kicad-component-placement-2022.08.05.zip",
-                    "install_size": 49395,
+                    "download_sha256": "8d113476a3f6608ef23e4e7177d61a0bca1e86cce60a240dfbd1ff8f07401689",
+                    "download_size": 17244,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/2022.08.06/kicad-component-placement-2022.08.06.zip",
+                    "install_size": 49421,
                     "platforms": [
                         "linux",
                         "macos",
