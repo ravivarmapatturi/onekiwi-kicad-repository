@@ -23,27 +23,13 @@
             "type": "plugin",
             "versions": [
                 {
-                    "version": "2022.08.08",
+                    "version": "2022.08.09",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "54549e5ae4f1a0136fa3fdf315c52de5cd6d9fca2d76e0507238db304d2c62a1",
+                    "download_sha256": "edbd15e155893ae4fdd1405d05be04ad4ac8dce8b1cea7f13cbed39815105acf",
                     "download_size": 16573,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/2022.08.08/length-matching-2022.08.08.zip",
+                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/2022.08.09/length-matching-2022.08.09.zip",
                     "install_size": 48903,
-                    "platforms": [
-                        "linux",
-                        "macos",
-                        "windows"
-                    ]
-                },
-                {
-                    "version": "0.1.2",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_sha256": "45d00d4ae9891b890daada0acd551c891aafc2033ba547c61d162f3c17d086fb",
-                    "download_size": 17137,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/0.1.2/kicad-component-placement-0.1.2.zip",
-                    "install_size": 49093,
                     "platforms": [
                         "linux",
                         "macos",
@@ -57,7 +43,7 @@
             "name": "Component Placement",
             "description": "Generate Position File",
             "description_full": "Generate Position File",
-            "identifier": "vn.onekiwi.kicad-component-placement",
+            "identifier": "vn.onekiwi.component-placement",
             "author": {
                 "name": "OneKiwi",
                 "contact": {
