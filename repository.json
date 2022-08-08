@@ -8,15 +8,15 @@
     },
     "name": "OneKiwi's KiCad repository",
     "packages": {
-        "sha256": "c8fcec5969f5fad501d30309aea6757323b5f0000e6bc15700c855d3260dc9db",
-        "update_time_utc": "2022-08-05 21:47:12",
-        "update_timestamp": 1659710832,
+        "sha256": "577420ffc061bf66dd9a457633d7694ee3ed509c50143e1f4f0a51fa0d304f25",
+        "update_time_utc": "2022-08-08 09:27:21",
+        "update_timestamp": 1659925641,
         "url": "https://raw.githubusercontent.com/OneKiwiTech/onekiwi-kicad-repository/main/packages.json"
     },
     "resources": {
-        "sha256": "957d89ab04673d16fadff86b9f95fd0974636350f579947ee9971721437f2e9f",
-        "update_time_utc": "2022-08-03 19:59:06",
-        "update_timestamp": 1659531546,
+        "sha256": "92e0fcc1cebfe59b52d89f5a99980121d96785499e93b6e00fc2dc3e6e53e707",
+        "update_time_utc": "2022-08-08 09:29:39",
+        "update_timestamp": 1659925779,
         "url": "https://github.com/OneKiwiTech/onekiwi-kicad-repository/raw/main/resources.zip"
     }
 }
