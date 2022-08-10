@@ -40,6 +40,40 @@
         },
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Fanout Tool",
+            "description": "BGA Fanout",
+            "description_full": "BGA fanout routing",
+            "identifier": "vn.onekiwi.fanout-tool",
+            "type": "plugin",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-fanout-tool"
+            },
+            "versions": [
+                {
+                    "version": "2022.08.11",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "cc78276ba4ed4aa6faab6827e0c32fe391c2329fbd6077517b72cc73120a5de5",
+                    "download_size": 76425,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/2022.08.11/fanout-tool-2022.08.11.zip",
+                    "install_size": 274573,
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ]
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Component Placement",
             "description": "Generate Position File",
             "description_full": "Generate Position File",
