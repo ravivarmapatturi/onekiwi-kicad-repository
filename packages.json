@@ -53,17 +53,18 @@
             },
             "license": "MIT",
             "resources": {
-                "homepage": "https://github.com/OneKiwiTech/kicad-fanout-tool"
+                "homepage": "https://github.com/OneKiwiTech/kicad-fanout-tool",
+                "demo": "https://www.youtube.com/watch?v=-J81S3inhoc"
             },
             "versions": [
                 {
-                    "version": "2022.08.11",
+                    "version": "2022.08.13",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "cc78276ba4ed4aa6faab6827e0c32fe391c2329fbd6077517b72cc73120a5de5",
-                    "download_size": 76425,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/2022.08.11/fanout-tool-2022.08.11.zip",
-                    "install_size": 274573,
+                    "download_sha256": "ec0dcb1a8b240ae8b57239055c879437dfc8a2e508da917a0cfbcc84c14cbb2c",
+                    "download_size": 99534,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/2022.08.13/fanout-tool-2022.08.13.zip",
+                    "install_size": 302986,
                     "platforms": [
                         "linux",
                         "macos",
