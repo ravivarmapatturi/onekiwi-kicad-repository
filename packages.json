@@ -76,9 +76,10 @@
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Component Placement",
-            "description": "Generate Position File",
-            "description_full": "Generate Position File",
+            "description": "Create component placement",
+            "description_full": "Create component placement",
             "identifier": "vn.onekiwi.component-placement",
+            "type": "plugin",
             "author": {
                 "name": "OneKiwi",
                 "contact": {
@@ -89,25 +90,19 @@
             "resources": {
                 "homepage": "https://github.com/OneKiwiTech/kicad-component-placement"
             },
-            "tags": [
-                "smt",
-                "pcbnew"
-            ],
-            "type": "plugin",
             "versions": [
                 {
-                    "download_sha256": "a1406d915428e9b0b42d44899e1890b7c6f79248e58fba48be9f9f509adb569f",
-                    "download_size": 8635,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.0.2/kicad-component-placement-1.0.2.zip",
-                    "install_size": 16155,
-                    "kicad_version": "6.0",
+                    "version": "1.1.0",
+                    "status": "stable",
+                    "kicad_version": "7.0",
+                    "download_sha256": "07b54c6537ae4058f29e0f5965bac24bc88bd8d1ffbfb10de724ad0d22e14f18",
+                    "download_size": 22894,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.0/component-placement-1.1.0.zip",
+                    "install_size": 34856,
                     "platforms": [
                         "linux",
-                        "macos",
                         "windows"
-                    ],
-                    "status": "stable",
-                    "version": "1.0.2"
+                    ]
                 }
             ]
         },
