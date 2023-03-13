@@ -2,44 +2,6 @@
     "packages": [
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "Length Matching",
-            "description": "Track Length Calculator",
-            "description_full": "Track Length Calculator",
-            "identifier": "vn.onekiwi.length-matching",
-            "author": {
-                "name": "OneKiwi",
-                "contact": {
-                    "web": "https://github.com/OneKiwiTech"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/OneKiwiTech/kicad-length-matching"
-            },
-            "tags": [
-                "highspeed",
-                "pcbnew"
-            ],
-            "type": "plugin",
-            "versions": [
-                {
-                    "version": "2022.08.09",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_sha256": "edbd15e155893ae4fdd1405d05be04ad4ac8dce8b1cea7f13cbed39815105acf",
-                    "download_size": 16573,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/2022.08.09/length-matching-2022.08.09.zip",
-                    "install_size": 48903,
-                    "platforms": [
-                        "linux",
-                        "macos",
-                        "windows"
-                    ]
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Fanout Tool",
             "description": "BGA Fanout",
             "description_full": "BGA fanout routing",
@@ -101,40 +63,6 @@
                     "install_size": 19481,
                     "platforms": [
                         "linux",
-                        "windows"
-                    ]
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "Edit Multi Text",
-            "description": "Edit reference value on layer Silkscreen and Fabrication",
-            "description_full": "Edit reference value on layer Silkscreen and Fabrication",
-            "identifier": "vn.onekiwi.edit-multi-text",
-            "type": "plugin",
-            "author": {
-                "name": "OneKiwi",
-                "contact": {
-                    "web": "https://github.com/OneKiwiTech"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/OneKiwiTech/kicad-edit-multi-text"
-            },
-            "versions": [
-                {
-                    "version": "2022.08.04",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_sha256": "4ce35579665cf15ff8587ff88ef713229503b1868cd3b022b099d5edc9eda093",
-                    "download_size": 11910,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-edit-multi-text/releases/download/2022.08.04/edit-multi-text-2022.08.04.zip",
-                    "install_size": 28260,
-                    "platforms": [
-                        "linux",
-                        "macos",
                         "windows"
                     ]
                 }
