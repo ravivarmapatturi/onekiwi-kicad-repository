@@ -58,13 +58,13 @@
             },
             "versions": [
                 {
-                    "version": "2022.08.13",
+                    "version": "1.1.0",
                     "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_sha256": "ec0dcb1a8b240ae8b57239055c879437dfc8a2e508da917a0cfbcc84c14cbb2c",
-                    "download_size": 99534,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/2022.08.13/fanout-tool-2022.08.13.zip",
-                    "install_size": 302986,
+                    "kicad_version": "7.0",
+                    "download_sha256": "48e2b789a6339f1bb22e0ebe645b91dae75422592911ccfce2d332ff6ad52e68",
+                    "download_size": 118925,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/1.1.0/fanout-tool-1.1.0.zip",
+                    "install_size": 339303,
                     "platforms": [
                         "linux",
                         "macos",
