@@ -67,6 +67,46 @@
                     ]
                 }
             ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Kiwi Light",
+            "description": "Designed by OneKiwi",
+            "description_full": "esigned by OneKiwi",
+            "identifier": "vn.onekiwi.theme-kiwi-light",
+            "type": "colortheme",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "maintainer": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-color-themes"
+            },
+            "versions": [
+                {
+                    "version": "1.0",
+                    "status": "stable",
+                    "kicad_version": "6",
+                    "download_sha256": "ec8cb6a499a703e9abf3e14f7349d6e62d287f5054541774f4ccab68eaf356b4",
+                    "download_size": 5743,
+                    "download_url": "https://raw.githubusercontent.com/OneKiwiTech/kicad-color-themes/main/kiwi-light/vn.onekiwi.theme-kiwi-light.zip",
+                    "install_size": 11207,
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ]
+                }
+            ]
         }
     ]
 }
