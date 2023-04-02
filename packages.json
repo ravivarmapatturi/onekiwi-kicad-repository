@@ -95,11 +95,11 @@
                 {
                     "version": "1.0",
                     "status": "stable",
-                    "kicad_version": "6",
-                    "download_sha256": "ec8cb6a499a703e9abf3e14f7349d6e62d287f5054541774f4ccab68eaf356b4",
-                    "download_size": 5743,
+                    "kicad_version": "7",
+                    "download_sha256": "600819509c522350a71a7e207e75634dd0ad1f4c8493bbfcff227c0a10560c9c",
+                    "download_size": 3262,
                     "download_url": "https://raw.githubusercontent.com/OneKiwiTech/kicad-color-themes/main/kiwi-light/vn.onekiwi.theme-kiwi-light.zip",
-                    "install_size": 11207,
+                    "install_size": 8727,
                     "platforms": [
                         "linux",
                         "macos",
