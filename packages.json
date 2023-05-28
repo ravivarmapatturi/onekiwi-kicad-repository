@@ -54,13 +54,13 @@
             },
             "versions": [
                 {
-                    "version": "1.1.1",
+                    "version": "1.1.2",
                     "status": "stable",
                     "kicad_version": "7.0",
-                    "download_sha256": "08088404a01ab3f8b4f0e3acfe522d77dea3146e42d5a2fde3c40a893970fede",
-                    "download_size": 11400,
-                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.1/component-placement-1.1.1.zip",
-                    "install_size": 19481,
+                    "download_sha256": "256f8b38beee8bb7cc2a8b9599e2d77b967175baa18aeec2b589774bee465a62",
+                    "download_size": 26002,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.2/component-placement-1.1.2.zip",
+                    "install_size": 46077,
                     "platforms": [
                         "linux",
                         "windows"
