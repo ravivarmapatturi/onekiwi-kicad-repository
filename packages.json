@@ -70,6 +70,39 @@
         },
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Pad Distance",
+            "description": "Pad to Pad minimum distance",
+            "description_full": "Pad to Pad minimum distance",
+            "identifier": "vn.onekiwi.track-distance",
+            "type": "plugin",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-pad-distance"
+            },
+            "versions": [
+                {
+                    "version": "0.0.2",
+                    "status": "stable",
+                    "kicad_version": "7.0",
+                    "download_sha256": "f51ce21997945c14bbdc1ff372848c2ec4826f7dd967bfb05c6f11a313a2cad8",
+                    "download_size": 42280,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-pad-distance/releases/download/0.0.2/pad-distance-0.0.2.zip",
+                    "install_size": 101738,
+                    "platforms": [
+                        "linux",
+                        "windows"
+                    ]
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Kiwi Light",
             "description": "Designed by OneKiwi",
             "description_full": "esigned by OneKiwi",
