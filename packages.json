@@ -32,6 +32,20 @@
                         "macos",
                         "windows"
                     ]
+                },
+                {
+                    "version": "1.1.1",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_sha256": "995c1bef2a095e54c87c7d48851f670be9cb43c68a619bd286cc61b4d0c81fc6",
+                    "download_size": 119927,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-fanout-tool/releases/download/1.1.1/fanout-tool-1.1.1.zip",
+                    "install_size": 338367,
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ]
                 }
             ]
         },
@@ -61,6 +75,19 @@
                     "download_size": 26002,
                     "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.2/component-placement-1.1.2.zip",
                     "install_size": 46077,
+                    "platforms": [
+                        "linux",
+                        "windows"
+                    ]
+                },
+                {
+                    "version": "1.1.3",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_sha256": "39a3815097b87d007bb2adfae298d7dd7908f3314adb99642ec14ebbda0f67f8",
+                    "download_size": 26376,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.3/component-placement-1.1.3.zip",
+                    "install_size": 48019,
                     "platforms": [
                         "linux",
                         "windows"
@@ -136,6 +163,39 @@
                     "platforms": [
                         "linux",
                         "macos",
+                        "windows"
+                    ]
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Fibonacci LED",
+            "description": "Fionacci spiral LED",
+            "description_full": "Fionacci spiral LED",
+            "identifier": "vn.onekiwi.fibonacci-led",
+            "type": "plugin",
+            "author": {
+                "name": "OneKiwi",
+                "contact": {
+                    "web": "https://github.com/OneKiwiTech"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/OneKiwiTech/kicad-fibonacci-led"
+            },
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_sha256": "47bcb5e536d1d48797aed38db6c6049ba6e7e11ce1b2159f5740281c940f9c6c",
+                    "download_size": 21101,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-fibonacci-led/releases/download/1.0.0/fibonacci-led-1.0.0.zip",
+                    "install_size": 31234,
+                    "platforms": [
+                        "linux",
                         "windows"
                     ]
                 }
