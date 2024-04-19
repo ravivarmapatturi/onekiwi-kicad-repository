@@ -92,6 +92,19 @@
                         "linux",
                         "windows"
                     ]
+                },
+                {
+                    "version": "1.1.4",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_sha256": "53b6b104100943e33555e5374701e31891ecd9aa57dada87d5a127bbd7d61364",
+                    "download_size": 26740,
+                    "download_url": "https://github.com/OneKiwiTech/kicad-component-placement/releases/download/1.1.4/component-placement-1.1.4.zip",
+                    "install_size": 49103,
+                    "platforms": [
+                        "linux",
+                        "windows"
+                    ]
                 }
             ]
         },
