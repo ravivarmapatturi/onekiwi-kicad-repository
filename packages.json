@@ -23,9 +23,9 @@
                     "status": "stable",
                     "kicad_version": "6.0",
                     "download_sha256": "SHA256",
-                    "download_size": "unknown",
+                    "download_size": 152000,
                     "download_url": "https://github.com/OneKiwiTech/kicad-length-matching/releases/download/VERSION/length-matching-VERSION.zip",
-                    "install_size": "unknown",
+                    "install_size": 200000,
                     "platforms": [
                         "linux",
                         "macos",
